@@ -1,5 +1,3 @@
-![IvanZubrei](/img/myPhoto.jpg "My photo")
-
 # Ivan Zubrei
 -----
 

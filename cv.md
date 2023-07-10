@@ -1,3 +1,5 @@
+![IvanZubrei](/img/myPhoto.jpg "My photo")
+
 # Ivan Zubrei
 -----
 
@@ -11,7 +13,6 @@ versatility
 * E-mail: zubreiivan@gmail.com
 * GitHub: https://github.com/IvanZubrei
 * Telegram: https://t.me/IvanZubrei
-* VK: https://vk.com/id_ivan_vladimirovich
 -----
 
 ## Skills

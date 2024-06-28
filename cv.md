@@ -2,7 +2,7 @@
 ### junior front end developer
 ---
 ## Contacts
-### + Telegram:
-#### + @IvanZubrei
-### + Email:
-#### + zubreiivanGmail.com
++ Telegram:
+* @IvanZubrei
++ Email:
+* zubreiivan@gmail.com

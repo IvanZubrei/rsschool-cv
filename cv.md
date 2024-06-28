@@ -10,7 +10,7 @@
 ---
  My main goal is to be a front-end developer in 2024-2025. To achieve my goal, I constantly improve my knowledge in front-end development and study new technologies. 
 ---
-+ Skills
+## Skills
   1. HTML
   2. CSS
   3. JS

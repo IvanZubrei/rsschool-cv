@@ -3,6 +3,7 @@
 ---
 ## Contacts
 1. Telegram:
-  * @IvanZubrei
+     + @IvanZubrei
 2. Email:
-  * zubreiivan@gmail.com
+     + zubreiivan@gmail.com
+---

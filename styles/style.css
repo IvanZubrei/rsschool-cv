@@ -25,7 +25,8 @@ a{
 .container{
   max-width: 980px;
   margin: 0 auto;
-  padding: 0 10px;  
+  padding: 0 10px; 
+  border-bottom: 2px solid #c4bfbf; 
 } 
 body{
   font-family: 'Inter', sans-serif;
@@ -113,6 +114,23 @@ body{
 }
 .info-text{
   padding: 10px 0;
+}
+.sub-title{
+  padding: 12px 0;
+}
+.contacts__list{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding-bottom: 10px;
+}
+.contacts__list-item{
+  display: flex;
+  gap: 12px;
+}
+.contacts__list-link:hover{
+  color: #918d8d;
+  transition: all 0.2s linear;
 }
 
 

@@ -130,7 +130,30 @@ body{
   color: #918d8d;
   transition: all 0.2s linear;
 }
-
+.additional-info-box{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 22px 0;
+}
+.additional-info{
+  width: 50%;
+  padding-top: 16px;
+}
+.additional-info-title{
+  display: inline-block;
+  border-bottom: 2px solid #161515;
+}
+.additional-info-list{
+  list-style: circle;
+  padding-top: 12px;
+}
+.additional-info-link{
+  margin-left: 17px;
+  padding: 2px 0;
+}
+.additional-info-code{
+  padding-top: 12px;
+}
 
 @media (max-width: 860px){
   .menu__btn{
@@ -171,6 +194,18 @@ body{
   }  
   .tabs__content-item{
     grid-template-columns: repeat(2, 1fr);
+  }
+  .additional-info{
+    width: 50%;
+  }
+}
+@media (max-width: 700px){
+  .additional-info{
+    width: 100%;
+    padding-top: 16px;
+  }
+  .additional-info-code{
+    font-size: 14px;
   }
 }
 

@@ -147,12 +147,42 @@ body{
   list-style: circle;
   padding-top: 12px;
 }
-.additional-info-link{
+.additional-info-item{
   margin-left: 17px;
   padding: 2px 0;
 }
 .additional-info-code{
   padding-top: 12px;
+}
+.footer-container{
+  border: none;
+}
+.footer-list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 18px;
+  padding-top: 22px;
+
+}
+.link-github{
+  font-size: 22px;
+}
+.link-github:hover{
+  color: #918d8d;
+  border-bottom: 2px solid #918d8d;
+}
+.footer-link-img{
+  width: 100px;
+}
+.footer-link-img:hover{
+  transform: scale(1.1);
+}
+.footer-text{
+  text-align: center;
+  font-size: 24px;
+  padding-top: 22px;
+  font-weight: 700;
 }
 
 @media (max-width: 860px){

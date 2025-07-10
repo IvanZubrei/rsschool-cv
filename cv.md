@@ -18,10 +18,11 @@
 ## Skills
   1. HTML
   2. CSS
-  3. JS
-  4. REACT
-  5. BEM
-  6. GIT
+  3. SCSS
+  4. JS
+  5. REACT
+  6. BEM
+  7. GIT
 
 ---
 

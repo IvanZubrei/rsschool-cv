@@ -6,7 +6,7 @@
 1. Telegram:
    + @IvanZubrei
 2. Email:
-   + zubreiivan@ail.com  
+   + zubreiivan@gmail.com  
 
 ---
 

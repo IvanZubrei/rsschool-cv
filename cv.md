@@ -19,8 +19,9 @@
   1. HTML
   2. CSS
   3. JS
-  4. BEM
-  5. GIT
+  4. REACT
+  5. BEM
+  6. GIT
 
 ---
 
@@ -29,7 +30,7 @@
 const a = "Very simple code example";
 const b = ", it couldn't be simpler";
 const c = a + b;
-console(c)
+console.log(c)
 `
 
 ---

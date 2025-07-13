@@ -62,9 +62,9 @@ body{
   background-color: transparent;  
   display: none;
 }
-.menu__btn span{
+.menu__line{
   height: 2px;
-  background-color: #000;
+  background-color: #111111;
   width: 100%;
 }  
 .menu__list{
@@ -178,7 +178,6 @@ body{
   align-items: center;
   gap: 18px;
   padding-top: 22px;
-
 }
 .link-github{
   font-size: 22px;
@@ -198,4 +197,55 @@ body{
   font-size: 24px;
   padding-top: 22px;
   font-weight: 700;
+}
+@media (max-width: 860px){
+  .menu__btn{
+    display: flex;
+    position: relative;
+    z-index: 5;
+  }   
+  .header__inner{
+    align-items: start;
+  }
+  .menu__list{
+    position: absolute;
+    z-index: 4;
+    background-color: #111111;
+    opacity: 0.98;
+    flex-direction: column;
+    align-items: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding-top: 70px;
+    height: 100vh;
+    transform: translateY(-100%);
+    transition: transform .3s ease;
+    justify-content: flex-start;
+  }
+  .menu__list.menu__list--active{
+    transform: translateY(0%);
+  }
+  .menu__line--active.menu__line{
+    background-color: #ffffff; 
+  }   
+  .nav-text{
+    color: #f7f1f1
+  }
+  .menu__list-link{
+    color: #f7f1f1
+  } 
+  .additional-info{
+    width: 50%;
+  }
+}
+@media (max-width: 700px){
+  .additional-info{
+    width: 100%;
+    padding-top: 16px;
+  }
+  .additional-info-code{
+    font-size: 14px;
+  }
 }

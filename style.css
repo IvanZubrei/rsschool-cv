@@ -115,11 +115,12 @@ body{
   border-radius: 8px; 
 }
 .name-title{
+  font-family: 'Roboto-Bold', sans-serif;
   font-size: 32px;
   padding-top: 22px;
 }
 .title{
-  font-size: 24px;
+  font-size: 28px;
   padding: 5px 0 15px 0;
 }
 .info-text{

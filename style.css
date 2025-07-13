@@ -144,3 +144,28 @@ body{
   color: #918d8d;
   transition: all 0.2s linear;
 }
+.additional-info-box{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 22px 0;
+}
+.additional-info{
+  width: 50%;
+  padding-top: 16px;
+}
+.additional-info-title{
+  display: inline-block;
+  border-bottom: 2px solid #161515;
+}
+.additional-info-list{
+  list-style: circle;
+  padding-top: 12px;
+}
+.additional-info-item{
+  margin-left: 17px;
+  padding: 2px 0;
+}
+.additional-info-code{
+  font-family: 'Roboto-Italic', sans-serif;
+  padding-top: 12px;
+}

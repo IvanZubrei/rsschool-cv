@@ -88,7 +88,7 @@ body{
   margin: 0;
   transition: all 0.2s linear;
 }
- .menu__list-link::after{
+.menu__list-link::after{
   content: '';
   width: 0%;
   height: 1px;
@@ -99,3 +99,29 @@ body{
 .menu__list-link:hover::after{
   width: 100%;
 } 
+.info{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 22px;
+  padding: 10px 0;
+}
+.info-box-img{
+  width: 250px;
+  border-radius: 8px;
+}
+.info-img{
+  width: 100%; 
+  border-radius: 8px; 
+}
+.name-title{
+  font-size: 32px;
+  padding-top: 22px;
+}
+.title{
+  font-size: 24px;
+  padding: 5px 0 15px 0;
+}
+.info-text{
+  padding: 10px 0;
+}
